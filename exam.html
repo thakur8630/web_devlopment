@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        var obj = {
+            name: "abhay",
+            age: 18,
+            address: "govind nagar",
+            course: "b-tech",
+            branch: "computer science",
+
+        };
+        function abc() {
+            document.write(this.course);
+        }
+        document.getElementById("demo").innerHTML = abc();
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

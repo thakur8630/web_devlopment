@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+.container{
+           margin-left: 462px;
+    margin-top: 100px;
+}
+.first-box{
+border: 1px solid black;
+      width: 555px;
+    height: 100px;
+}
+#first{
+    background-color: orange;
+
+}
+#second{
+    background-color: white;
+}
+#third{
+    background-color: green;
+}
+.india{
+        text-align: center;
+    margin-top: 9px;
+    font-size: 75px;
+    font-family: none;
+    color: midnightblue;
+
+}
+.happy{
+        text-align: center;
+    font-size: 63px;
+    font-family: sans-serif;
+    color: white;
+}
+.nara{
+    text-align: center;
+    margin-top: 61px;
+    font-size: 63px;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+

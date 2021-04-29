@@ -1,0 +1,128 @@
+body{
+    background-image: url("https://themalestrom.com/wp-content/uploads/ben-white-1zA_mC846yU-unsplash-1600x1068.jpg");
+    background-size : cover;
+    background-position:center;
+}
+.navi{
+    text-align: center;
+    text-decoration: none; 
+     border: 3px solid black;
+     border-radius: 10px;
+     background-color: black;
+}
+.navi ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.navi ul li{
+    width: 100px;
+    margin: 8px;
+    padding: 5px;
+}
+.active{
+    background-color:gray;
+}
+.navi li a{
+    color:whitesmoke;
+}
+.navi li a:hover{
+    background-color: lightblue;
+    
+}
+.subnav{
+    display: none;
+}
+.navi ul li:hover .subnav{
+    display: block;
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.navi ul li:hover .subnav ul{
+    display: block;
+    margin: 10px;
+}
+.navi ul li:hover .subnav ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.facelogo{
+    float: right;
+    margin-right: 15px;
+    padding: 10px;
+    width: 50px;
+}
+#myimage{
+    border-radius: 22px
+}
+.instalogo{
+    float: right;
+    margin-left: 20px;
+    padding:10px
+}
+#myinsta{
+    border-radius: 12px;
+}
+.contain{
+    width: 400px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 250px;
+    margin-left: 150px;
+
+}
+.myform {
+    margin: 3px -3px;
+    padding: 3px 3px;
+}
+.myform input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    margin: 3px auto;
+    border-bottom: black;
+    border-radius: 5px;
+    color:darkgreen
+}
+.contain h1{
+    text-align: center;
+    text-shadow: chartreuse;  
+}
+.btn{
+    text-align: center;
+}
+.btn:hover{
+    color: darkorange;
+}
+
+.heading{
+    text-align: center;
+    color: saddlebrown;
+    margin-top: 248px;
+    margin-bottom: -17px;
+}
+.para {
+    text-align: center;
+    color: darkorange;
+    margin-left: 319px;
+    margin-right: 271px;
+}
+
+.button{
+    background: darkgoldenrod;
+    display: block;
+    margin: auto;
+}
+.button:hover{
+    color: darkgreen;
+}
+
+
+
+
+
